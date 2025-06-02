@@ -1,5 +1,7 @@
 An attempted reproduction of the MasterRTL paper. Repo of orignal paper: https://github.com/hkust-zhiyao/MasterRTL
 
+Description: cloned repo from original with cloned repos of data I was able to gather. The only code provided by authors of MasterRTL is tree mode code (not transformer or gnn). As far as I know, no synthetic data generation code was provided, but they reference another paper that may have a repo.
+
 Note: 
 - "Benchmark" Directory: https://github.com/santoshsmalagi/Benchmarks/tree/main
 - "ITC99-RTL-Verilog" Directory: https://github.com/ccsl-uaegean/ITC99-RTL-Verilog
