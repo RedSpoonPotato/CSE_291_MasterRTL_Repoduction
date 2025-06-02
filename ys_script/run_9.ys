@@ -1,0 +1,5 @@
+read_verilog ../ITC99-RTL-Verilog/b14.v
+hierarchy -check -top b14
+proc; flatten; opt; fsm; opt; memory; opt;
+techmap; opt;
+write_verilog ../test/verilog/b14.v

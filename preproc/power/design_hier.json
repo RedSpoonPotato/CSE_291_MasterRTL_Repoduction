@@ -1,0 +1,33 @@
+{
+
+    "chipyard": [
+        {
+            "TinyRocket": {
+                "TinyRocket_rest": 1,
+                "CSRFile": 1,
+                "BreakpointUnit": 1,
+                "ALU": 1,
+                "PlusArgTimeout": 1,
+                "IBuf": 1,
+                "MulDiv": 1
+            }
+        }
+    ],
+    "test": [
+        {
+            "b10": 1,
+            "b11": 1,
+            "b12": 1,
+            "b13": 1,
+            "b14": 1,
+            "b15": 1,
+            "b17": 1,
+            "b18": 1,
+            // "b19": 1,
+            // "b20": 1,
+            // "b21": 1,
+            // "b22": 1
+
+        }
+    ]
+}

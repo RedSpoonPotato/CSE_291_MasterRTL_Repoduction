@@ -1,0 +1,5 @@
+read_verilog ../MasterRTL/Benchmarks/ISCAS89/s38417.v
+hierarchy -check -top s38417
+proc; flatten; opt; fsm; opt; memory; opt;
+techmap; opt;
+write_verilog ../test/verilog/s38417.v

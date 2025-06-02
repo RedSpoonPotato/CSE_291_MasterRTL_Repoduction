@@ -1,0 +1,5 @@
+read_verilog ../MasterRTL/Benchmarks/ISCAS89/s5378.v
+hierarchy -check -top s5378
+proc; flatten; opt; fsm; opt; memory; opt;
+techmap; opt;
+write_verilog ../test/verilog/s5378.v
