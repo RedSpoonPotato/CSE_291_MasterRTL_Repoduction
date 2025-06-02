@@ -1,5 +1,9 @@
 An attempted reproduction of the MasterRTL paper. Repo of orignal paper: https://github.com/hkust-zhiyao/MasterRTL
 
+Note: 
+- "Benchmark" Directory: https://github.com/santoshsmalagi/Benchmarks/tree/main
+- "ITC99-RTL-Verilog" Directory: https://github.com/ccsl-uaegean/ITC99-RTL-Verilog
+
 Issues I am facing:
 
 (1): Can't locate all the opensourced data mentioned in the paper. Can only find:
